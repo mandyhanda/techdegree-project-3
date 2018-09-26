@@ -1,0 +1,177 @@
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+body
+{
+    font-family: 'Merriweather', serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+#container
+{
+    max-width: 90%;
+    margin: 0 auto;
+}
+h1{
+    background-color:navy;
+     margin: 0;
+     color:white;
+     padding: 10px 5px;
+     text-align: center;
+}
+h2{
+    text-align: center;
+    color: navy;
+    margin-bottom: 3px;
+}
+.tagline
+{
+    text-align: center;
+    margin-top: 0;
+    padding-bottom:15px;
+    margin-bottom: 18px;
+    border-bottom: 7px double black;
+}
+legend
+{
+    font-size:25px;
+    font-weight: bolder;
+    border: none;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select
+{
+    display:block;
+    width:100%;
+    height: 35px;
+    background-color:bisque;
+    color: #8a97a0;
+}
+input::placeholder
+{
+    opacity: 0.7;
+    text-align:right;
+    font-size:17px;
+    font-style: italic;
+    padding-right: 4px;
+}
+label {
+    color:darkgray;
+    margin-bottom: 8px;
+    display: inline-block;
+  }
+  input[type="checkbox"],
+  input[type="radio"]
+  {
+     margin-bottom: 22px;
+}
+  textarea
+  {
+    display:block;
+    width:100%;
+    height: 135px;
+    border: 2px solid gray;
+    background-color:bisque;
+    color: #8a97a0;
+  }
+  fieldset
+  {
+      border: none;
+      padding: 0;
+  }
+  input:focus,
+  select:focus,
+  textarea:focus
+  {
+        border-color:navy;
+  }
+  input,
+  textarea  {
+    outline: 0;
+	border: none;
+	padding: 15px;
+	border-radius: .3em;
+    border-bottom: 3px solid rgba(0,0,0,0.05);
+}
+select
+{
+    outline: 0;
+	border: none;
+	padding: 0;
+	border-radius: .3em;
+    border-bottom: 3px solid rgba(0,0,0,0.05);
+}
+input[type="checkbox"]:checked + label{
+    font-weight:bold;
+}
+input[type="radio"]:checked + label{
+    font-weight:bold;
+}
+button{
+    width: 100%;
+    background-color: navy;
+    color:white;
+    font-size: 22px;
+    padding: 15px 5px;
+    border:1px solid white;
+    border-radius: 5px;
+}
+button:hover
+{
+    font-size: bolder;
+    color: bisque;
+    transition: all .5;
+    cursor: pointer;
+}
+footer p{
+    text-align: center;
+}
+.newsletter
+{
+    margin-top: 0;
+}
+#pcode
+{
+    width: 170px;
+}
+hr{
+    border:1px solid black;
+}
+@media(min-width:769px)
+{
+label
+{
+     display: inline-block;
+     width:20%;
+     padding: 5px 0;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select
+{
+    display: inline-block;
+    width:79.5%;
+    background-color:bisque;
+    color: #8a97a0;
+    margin-bottom: 25px;
+}
+select
+{
+    outline: 0;
+	border: none;
+	padding: 0;
+	border-radius: .3em;
+    border-bottom: 3px solid rgba(0,0,0,0.05);
+}
+.btmtag
+{
+    width: 100%;
+    margin-bottom: 10px;
+}
+}

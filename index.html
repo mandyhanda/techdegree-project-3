@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/styles.css" />
+    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+</head>
+<body>
+    <h1>THE CODE REVIEW</h1>
+    <div id="container">
+    <h2>Signup for our newsletter</h2>
+    <p class="tagline">Get the latest news on how your code is doing right in your inbox</p>
+ 
+   <fieldset>
+    <legend style="margin:20px 0;">Contact Information</legend>
+    <label for="name">Full Name</label>
+    <input type="text" id="name" name="user_name" placeholder="required" required><br>
+
+    <label for="email">Email Address</label>
+    <input type="email" id="email" name="user_email" placeholder="required" required><br>
+
+    <label for="number">Phone Number</label>
+    <input type="tel" id="number" name="user_number" placeholder="optional"><br>
+
+    <label for="address">Street Address</label>
+    <input type="text" id="name" name="user_name" placeholder="eg. 23 street"><br>
+
+    <label for="city">City</label>
+    <input type="text" id="city" name="user_city" required><br>
+
+    <label for="state">State</label>
+    <select id="state" name="user_state">
+            <option disabled selected value="choose">Choose State or Province</option>
+                
+            <optgroup label="Canada">                    
+                   <option value="Alberta">Alberta</option>
+                    <option value="British Columbia">British Columbia</option>
+                    <option value="Manitoba">Manitoba</option>
+                    <option value="New Brunswick">New Brunswick</option>
+                    <option value="Newfoundland and Labrador">Newfoundland and Labrador</option>
+                    <option value="Northwest Territories">Northwest Territories</option>
+                    <option value="Nova Scotia">Nova Scotia</option>
+                    <option value="Nunavut">Nunavut</option>
+                    <option value="Ontario">Ontario</option>
+                    <option value="Prince Edward Island">Prince Edward Island</option>
+                    <option value="Quebec">Quebec</option>
+                    <option value="Saskatchewan">Saskatchewan</option>
+                    <option value="Yukon">Yukon</option>
+                </optgroup>
+
+                <optgroup label="USA">
+                    <option value="Alabama">Alabama</option>
+                    <option value="Alaska">Alaska</option>
+                    <option value="Arizona">Arizona</option>
+                    <option value="Arkansas">Arkansas</option>
+                    <option value="California">California</option>
+                    <option value="Colorado">Colorado</option>
+                    <option value="Connecticut">Connecticut</option>
+                    <option value="Delaware">Delaware</option>
+                    <option value="District of Columbia">District of Columbia</option>
+                    <option value="Florida">Florida</option>
+                    <option value="Georgia">Georgia</option>
+                    <option value="Hawaii">Hawaii</option>
+                    <option value="Idaho">Idaho</option>
+                    <option value="Illinois">Illinois</option>
+                    <option value="Indiana">Indiana</option>
+                    <option value="Iowa">Iowa</option>
+                    <option value="Kansas">Kansas</option>
+                    <option value="Kentucky">Kentucky</option>
+                    <option value="Louisiana">Louisiana</option>
+                    <option value="Maine">Maine</option>
+                    <option value="Maryland">Maryland</option>
+                    <option value="Massachusetts">Massachusetts</option>
+                    <option value="Michigan">Michigan</option>
+                    <option value="Minnesota">Minnesota</option>
+                    <option value="Mississippi">Mississippi</option>
+                    <option value="Missouri">Missouri</option>
+                    <option value="Montana">Montana</option>
+                    <option value="Nebraska">Nebraska</option>
+                    <option value="Nevada">Nevada</option>
+                    <option value="New Hampshire">New Hampshire</option>
+                    <option value="New Jersey">New Jersey</option>
+                    <option value="New Mexico">New Mexico</option>
+                    <option value="New York">New York</option>
+                    <option value="North Carolina">North Carolina</option>
+                    <option value="North Dakota">North Dakota</option>
+                    <option value="Ohio">Ohio</option>
+                    <option value="Oklahoma">Oklahoma</option>
+                    <option value="Oregon">Oregon</option>
+                    <option value="Pennsylvania">Pennsylvania</option>
+                    <option value="Rhode Island">Rhode Island</option>
+                    <option value="South Carolina">South Carolina</option>
+                    <option value="South Dakota">South Dakota</option>
+                    <option value="Tennessee">Tennessee</option>
+                    <option value="Texas">Texas</option>
+                    <option value="Utah">Utah</option>
+                    <option value="Vermont">Vermont</option>
+                    <option value="Virginia">Virginia</option>
+                    <option value="Washington">Washington</option>
+                    <option value="West Virginia">West Virginia</option>
+                    <option value="Wisconsin">Wisconsin</option>
+                    <option value="Wyoming">Wyoming</option>
+                </optgroup>
+            </select><br>
+
+    <label for="pcode">Zip Code</label>
+    <input type="text" id="pcode" name="zip_code" class="zip"><br>
+</fieldset>
+    <hr>
+<fieldset>
+ <legend>Newsletter</legend>
+    <P>Select the information you would like to recieve</P>
+    <input type="checkbox" id="html_news" name="user_news"><label for="html_news">HTML News</label><br>
+    <input type="checkbox" id="css_news" name="user_news"><label for="css_news">CSS News</label><br>
+    <input type="checkbox" id="js_news" name="user_news"><label for="js_news">JavaScript News</label><br>
+
+    <p class="newsletter">Newsletter Format</p>
+    <input type="radio" id="hrml" name="news_format"><label for="html">HTML</label><br>
+    <input type="radio" id="hrml" name="news_format"><label for="html">Plain Text</label><br>
+
+    <label for="comment" class="btmtag">Other topics you'd like to hear about</label>
+    <textarea id="comment" name="user_comment"></textarea><br>
+    <button type="button">Sign Up</button>
+</fieldset>
+    
+<footer>
+    <p>Copyright the Code Review</p>
+</footer>
+</div>
+</body>
+</html>
