@@ -123,9 +123,8 @@ button{
 }
 button:hover
 {
-    font-size: bolder;
+   
     color: bisque;
-    transition: all .5;
     cursor: pointer;
 }
 footer p{
