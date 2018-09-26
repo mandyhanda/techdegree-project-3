@@ -81,6 +81,8 @@ label {
     border: 2px solid gray;
     background-color:bisque;
     color: #8a97a0;
+    transition: 0.3s;
+    opacity: 0.6;
   }
   fieldset
   {
